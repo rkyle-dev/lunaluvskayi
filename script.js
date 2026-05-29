@@ -121,7 +121,7 @@ const easterEggs = {
   "flowers": { title:"Daisy", body:"Your beauty is reflected by your own favorite flower, darling." },
   "home": { title:"You Are My Home ", body:"Ikaw ang forever tahanan ko, namnam ko." },
   "first cine": { title:"One of the best", body:"Talagang sama ka sakin bebi kahit saan e no HAHAHAHAHAHAH" },
-  "first cine": { title:"Food", body:"favorite food mo to bebi I love you" },
+  "munggo": { title:"Food", body:"favorite food mo to bebi I love you" },
   "ice cream": { title:"Comfort", body:"if stress ikaw, eat lang ng ice cream or magsabi sakin para bibilhan kita" },
   "moon": { title:"Luna", body:"I learn to love moon na rin because of you po." },
 };
