@@ -134,7 +134,7 @@ const jarMemories = [
   { text:"Watching you sleep peacefully. You looked so safe. Hindi ko na inaalis braso ko hanggang umaga.", tag:"Sleeping beauty ang darling" },
   { text:"You always remembered my favorite strawberry.", tag:"Strawberry" },
   { text:"That fight where we both apologized at the same time and then laughed. I love how we do that.", tag:"We Always Come Back" },
-  { text:"You are talking to me always when I'm asleep. I heard all the I love you's you've said.", tag:"Thankful sobra" },
+  { text:"You are talking to me always when I'm asleep. I heard all the I love yous you've said.", tag:"Thankful sobra" },
   { text:"That hug after a terrible day. I held on longer. I knew you needed it, sweetie.", tag:"I Know You" },
 ];
 
