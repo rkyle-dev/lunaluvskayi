@@ -112,7 +112,7 @@ const easterEggs = {
   "always forever": { title:"Always", body:"Let's dance na ulit with our song po, I love our small dances na ginagawa na walang iba nakakaalam" },
   "first date": { title:"The Night That Changed Everything", body:"You looked beautiful. I was nervous. You made it so easy to be myself. I already knew that night that I was in trouble — the best kind of trouble." },
   "i love you": { title:"I love you too", body:"Maraming salamat sa I love you mo bebi, mahal na mahal kita HAHAAHAHHA" },
-  "11-30-24": { title:"Best day", body:"Thank you for letting me become a part of your life, sweetie. I love you so muchhh!" },
+  "11-30-24": { title:"Best day", body:"Thank you for letting me become part of your life, sweetie. I love you so muchhh!" },
   "eating in one plate": { title:"Super comfy", body:"Sobrang sarap kumain bebi kasama ka" },
   "first guy best friend": { title:"Bff", body:"I got you always, forever and ever." },
   "my other half": { title:"bestest one", body:"Hanggat nandyan ang bespren ko na yan, kumpleto ako." },
