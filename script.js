@@ -4,12 +4,12 @@ const timelineData = [
   { date:"April 11, 2022", title:"Our First Meet Up", note:"It seems like yesterday, sweetie. Unang ice cream together, unang tawanan na magkasama. Glad I met you, my bff.", right:true },
   { date:"May 10, 2022", title:"First Bestfriend Date?", note:"I was nervous. You were perfect. Hindi ako makapaniwala na inaya mo ako sa SM HAHAHHAAHAHA, todo outfit ka, ako nakapang bahay lang.", right:false },
   { date:"May 12, 2022", title:"Home Hangout", note:"This was your first time coming to my house, sweetie. We played guitar all day, I taught you how to play a guitar and you taught me how to love you.  You were strumming so well, but my eyes were locked up on your face.", right:true },
-  { date:"October 2, 2022", title:"Cine", note:"Hindi tayo nakapag celebrate ng first friendsarry natin kaya I just offered you to come and watch cine with me HAAHAHAH hindi ka pa nanonood OP niyan pero you watched with me. Very lucky to have you.", right:false },
+  { date:"October 2, 2022", title:"Cine", note:"Hindi tayo nakapag celebrate ng first friendsary natin kaya I just offered you to come and watch cine with me HAAHAHAH hindi ka pa nanonood OP niyan pero you watched with me. Very lucky to have you.", right:false },
   { date:"December 10, 2022", title:"Happy birthday!", note:"I gave you a very simple present, a music box with music that tells how much I adore you.", right:true },
   { date:"April 21, 2023", title:"Overnight?", note:"Can't believe you slept in my house, mag bff lang tayo ah? HAHAHAHAHAHAHH", right:false },
   { date:"October 20, 2024", title:"Met Again.", note:"halos isang taon hindi nagkita, glad we found each other back again, I love you.", right:true },
   { date:"November 23, 2024", title:"Courting.", note:"Tinanggal ko lahat ng katorpehan ko para maligawan na kita, hehe kiniss moko after kita ligawan panalo agad. I love you more than anything in this world.", right:false },
-  { date:"November 30, 2024", title:"A Yes.", note:"1 week lang na ligawan and I already got your YES, I can't believe it until today that we are already in a relationship, after of long years I'm glad we end up together.", right:true }
+  { date:"November 30, 2024", title:"A Yes.", note:"1 week lang na ligawan and I already got your YES, I can't believe it until today that we are already in a relationship, after long years I'm glad we end up together.", right:true }
 ];
 
 const lettersData = [
@@ -28,17 +28,16 @@ const lettersData = [
     sign:"— Kayi"
   },
   {
-    label:"Poem",
+    label:"My First Poem",
     unlock:false,
-    lockLabel:"Unlock on your birthday",
-    to:"Adoring you, bebi",
+    to:"Adoring you,",
     body:"Just like the moon, you have caught my attention, a flawless woman that shines alone. \n\nMy eyes look through you much more than what others does, and a word that can illustrate my adoration for you is nowhere to be found in this reality. \n\nFinally the dawn will come, the sun will rise, to express the beauty of the sunset.",
     sign:"— Kayi"
   },
   {
     label:"Just Because",
     unlock:false,
-    to:"Hey you,",
+    to:"darling,",
     body:"I love you. I appreciate you in everything, you are the sweetest person in the whole universe. \n\nThat's the whole letter. You are my everything.",
     sign:"— Kayi"
   },
