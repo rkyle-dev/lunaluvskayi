@@ -49,7 +49,7 @@ const lettersData = [
     sign:"— Kayi"
   },
   {
-    label:"For Our Anniversary 💑",
+    label:"For Our Anniversary",
     unlock:true,
     lockLabel:"Unlock on our anniversary",
     to:"To my person,",
@@ -98,7 +98,7 @@ const allReasons = [
   "Your voice when you're excited",
   "The small moments you think don't matter, they all matter",
   "How safe I feel beside you po",
-  "Your hands",
+  "Your eyes",
   "The way you look at the moon",
   "Your honesty, even when it's hard",
   "How you've grown, and how you've helped me grow",
