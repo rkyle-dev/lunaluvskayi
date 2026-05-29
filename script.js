@@ -100,6 +100,8 @@ const allReasons = [
   "How safe I feel beside you po",
   "Your eyes",
   "The way you look at the moon",
+  "Masarap mag luto",
+  "Hardworking",
   "Your honesty, even when it's hard",
   "How you've grown, and how you've helped me grow",
   "You make ordinary days extraordinary",
