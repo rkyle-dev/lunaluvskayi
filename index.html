@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>motmot</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Caveat:wght@400;600;700&family=Lora:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-brand">My<span> Shane</span></div>
+  <button class="hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#timeline">Timeline</a></li>
+    <li><a href="#letters">Letters</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#reasons">Reasons</a></li>
+    <li><a href="#eastereggs">Secrets</a></li>
+    <li><a href="#memoryjar">Jar</a></li>
+  </ul>
+</nav>
+
+<section id="hero">
+  <div class="hero-circles">
+    <span></span><span></span><span></span><span></span>
+  </div>
+  <div class="floating-hearts" id="floatingHearts"></div>
+  <div class="hero-eyebrow">Our little love </div>
+  <h1 class="hero-title">Kyle & <em>Shane</em></h1>
+  <p class="hero-sub">Every moment, every memory, every reason I love you — hanggat nandiyan ka, kumpleto ako.</p>
+  <div class="hero-scroll">
+    <div class="scroll-arrow"></div>
+  </div>
+</section>
+
+<section id="timeline">
+  <div class="section-header">
+    <span class="section-tag">Dayari</span>
+    <h2 class="section-title">Our <em>Story</em></h2>
+    <div class="divider"></div>
+  </div>
+  <div class="timeline-container">
+    <div class="timeline-line"></div>
+    <div id="timelineItems"></div>
+  </div>
+</section>
+
+<section id="letters">
+  <div class="section-header">
+    <h2 class="section-title">Love Letter <em>Vault</em></h2>
+    <div class="divider"></div>
+  </div>
+  <div class="letters-grid" id="lettersGrid"></div>
+</section>
+
+<section id="gallery">
+  <div class="section-header">
+    <h2 class="section-title">Our <em>Gallery</em></h2>
+    <div class="divider"></div>
+  </div>
+  <div class="filmstrip-scroll">
+    <div class="filmstrip" id="filmstrip"></div>
+  </div>
+</section>
+
+<section id="reasons">
+  <div class="section-header">
+    <h2 class="section-title">Why I Love <em>You</em></h2>
+    <div class="divider"></div>
+  </div>
+  <div class="reasons-wall" id="reasonsWall"></div>
+  <div class="reasons-load-more">
+    <button class="btn-brown" id="loadMoreBtn">Show more reasons</button>
+  </div>
+</section>
+
+<section id="eastereggs">
+  <div class="section-header">
+    <h2 class="section-title">Hidden <em>Secrets</em></h2>
+    <div class="divider"></div>
+  </div>
+  <div class="egg-container">
+    <div class="egg-form">
+      <p class="egg-hint">Lagay ka bebi mga alam natin</p>
+      <input type="text" class="egg-input" id="eggInput" autocomplete="off">
+      <button class="btn-brown" onclick="checkEgg()">Unlock</button>
+      <p class="egg-error" id="eggError">Hula pamore bebi</p>
+      <div class="egg-reveal" id="eggReveal">
+        <div class="egg-reveal-title" id="eggRevealTitle"></div>
+        <p class="egg-reveal-body" id="eggRevealBody"></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="memoryjar">
+  <div class="section-header">
+    <h2 class="section-title">Memory <em>Jar</em></h2>
+    <div class="divider"></div>
+  </div>
+  <div class="jar-wrapper">
+    <div class="jar-svg-wrap" id="jarSvg" onclick="shakeJar()" title="Shake me!">
+      <svg viewBox="0 0 120 160" xmlns="http://www.w3.org/2000/svg">
+
+        <rect x="30" y="8" width="60" height="18" rx="5" fill="#6b3a1f"/>
+        <rect x="34" y="12" width="52" height="10" rx="3" fill="#8b4513"/>
+
+        <path d="M25,26 Q20,30 18,45 L15,130 Q15,145 60,145 Q105,145 105,130 L102,45 Q100,30 95,26 Z" fill="#c68642" opacity="0.35"/>
+        <path d="M25,26 Q20,30 18,45 L15,130 Q15,145 60,145 Q105,145 105,130 L102,45 Q100,30 95,26 Z" fill="none" stroke="#8b4513" stroke-width="2.5"/>
+    
+        <ellipse cx="60" cy="115" rx="38" ry="15" fill="#d4a574" opacity="0.5"/>
+  
+        <rect x="38" y="85" width="20" height="14" rx="2" fill="#fdf6ec" transform="rotate(-8,48,92)"/>
+        <rect x="60" y="90" width="18" height="13" rx="2" fill="#f0e0c5" transform="rotate(5,69,96)"/>
+        <rect x="45" y="100" width="16" height="12" rx="2" fill="#fdf6ec" transform="rotate(-3,53,106)"/>
+     
+        <rect x="32" y="48" width="56" height="30" rx="6" fill="#fdf6ec" opacity="0.9"/>
+        <line x1="38" y1="58" x2="74" y2="58" stroke="#c68642" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="40" y1="64" x2="72" y2="64" stroke="#c68642" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="38" y1="70" x2="68" y2="70" stroke="#c68642" stroke-width="1.5" stroke-linecap="round"/>
+        
+        <text x="60" y="55" text-anchor="middle" font-size="8" fill="#8b4513">🤎</text>
+      </svg>
+    </div>
+    <p class="jar-instruction">Tap Tap Tap poooo</p>
+    <div class="jar-memory-card" id="jarCard">
+      <span class="jar-memory-emoji" id="jarEmoji"></span>
+      <p class="jar-memory-text" id="jarText"></p>
+      <span class="jar-memory-tag" id="jarTag"></span>
+    </div>
+    <p class="jar-counter" id="jarCounter"></p>
+  </div>
+</section>
+
+
+<footer>
+  <div class="footer-title">Always Forever</div>
+  <p class="footer-sub">I love loving you</p>
+</footer>
+
+<script src="./script.js"></script>
+</body>
+</html>
