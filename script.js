@@ -94,7 +94,7 @@ const allReasons = [
   "Pang aasar mo",
   "Kakulitan kagigil",
   "The way you see the best in me",
-  "How you made even the worst day better",
+  "You make the worst day better",
   "Your voice when you're excited",
   "Your softness",
   "How safe I feel beside you po",
